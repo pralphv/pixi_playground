@@ -2,14 +2,14 @@
   "name": "pixi-playground",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
   "type": "module",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "rmdir /s dist && parcel build index.html",
+    "build": "rmdir /s dist || parcel build index.html",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "parcel": "^2.7.0",
     "pixi.js": "^6.5.3"
   },
   "devDependencies": {
