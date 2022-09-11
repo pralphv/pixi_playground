@@ -1,4 +1,3 @@
-import "./styles.css";
 import * as PIXI from "pixi.js";
 import Player from "./classes/player";
 import Enemy from "./classes/Enemy";
