@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "rmdir /s dist && parcel build index.html",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "pixi.js": "^6.5.3"
