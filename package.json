@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
+  "source": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "rmdir /s dist || parcel build index.html",
