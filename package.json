@@ -5,8 +5,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html --open",
-    "build": "parcel build src/index.html",
-    "deploy": "gh-pages -d dist"
+    "build": "parcel build src/index.html --public-url ./ --dist-dir docs",
+    "deploy": "gh-pages -d docs"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
